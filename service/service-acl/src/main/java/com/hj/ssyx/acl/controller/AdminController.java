@@ -2,7 +2,6 @@ package com.hj.ssyx.acl.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hj.ssyx.acl.service.AdminRoleService;
 import com.hj.ssyx.acl.service.AdminService;
 import com.hj.ssyx.acl.service.RoleService;
 import com.hj.ssyx.common.result.Result;
@@ -10,7 +9,6 @@ import com.hj.ssyx.common.utils.MD5;
 import com.hj.ssyx.model.acl.Admin;
 import com.hj.ssyx.vo.acl.AdminQueryVo;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
