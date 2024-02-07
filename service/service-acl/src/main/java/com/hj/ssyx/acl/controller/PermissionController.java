@@ -18,7 +18,6 @@ import java.util.Map;
 @Api(tags = "菜单管理")
 @RestController
 @RequestMapping("/admin/acl/permission")
-@CrossOrigin
 public class PermissionController {
     @Autowired
     private PermissionService permissionService;

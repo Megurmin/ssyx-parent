@@ -12,6 +12,10 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
+        <module>service-gateway</module>
+        <module>service-client</module>
+        <module>common/rabbit-util</module>
+        <module>service/service-activity</module>
     </modules>
 
     <parent>
